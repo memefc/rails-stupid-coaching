@@ -1,0 +1,19 @@
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<div id="title">
+<h1>Stupid Coaching</h1>
+</div>
+<div id="myQuestion">
+<p><%= @question %></p>
+<p class="signature"> - You </p>
+</div>
+<br>
+<!-- <p>Find me in app/views/questions/answer.html.erb</p> -->
+<div id="coachAnswer">
+<p><%= @answer %></p>
+<p class="signature"> - Your Coach</p>
+</div>
+<div id="returnLink">
+<p><%= link_to "Ask a new question", "/ask" %></p>
+</div>

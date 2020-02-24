@@ -1,0 +1,61 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1{
+  font-family: 'Roboto', ;
+  font-size: 50px;
+}
+
+p{
+  font-family: 'Roboto', ;
+  font-size: 15px;
+}
+
+
+#btnBlue{
+  background-color: #337AB7;
+  color: white;
+  font-weight: bold;
+}
+
+#title{
+  margin: auto;
+  text-align: center;
+}
+
+#questionBox{
+  margin: auto;
+  text-align: center;
+}
+
+.container{
+  margin:auto;
+  text-align:center;
+}
+
+#returnLink{
+  color:blue;
+}
+
+#myQuestion{
+  margin:auto;
+  text-align:center;
+}
+
+#coachAnswer{
+  margin:auto;
+  text-align:center;
+  background-color: #FFFEE1;
+  padding: 10px;
+}
+
+#returnLink{
+  margin:auto;
+  text-align:center;
+
+}
+
+.signature{
+  font-style: italic;
+}
